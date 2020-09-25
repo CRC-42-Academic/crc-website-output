@@ -1,0 +1,135 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+.color-trans {
+    transition-property: color;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.8s;
+    -o-transition-property: color;
+    -o-transition-duration: 0.8s;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.hover-red:hover {
+    color: var(--danger) !important;
+}
+
+.hover-yellow:hover {
+    color: var(--yellow) !important;
+}
+
+.hover-green:hover {
+    color: var(--green) !important;
+}
+
+.hover-blue:hover {
+    color: var(--blue) !important;
+}
+
+.active-red {
+    color: var(--danger) !important;
+}
+
+.active-yellow {
+    color: var(--yellow) !important;
+}
+
+.active-green {
+    color: var(--green) !important;
+}
+
+.active-blue {
+    color: var(--blue) !important;
+}
+
+.bg-black {
+    background-color: #2c2e31 !important;
+}
+
+.bg-red {
+    background-color: var(--danger) !important;
+}
+
+.bg-yellow {
+    background-color: var(--yellow) !important;
+}
+
+.bg-green {
+    background-color: var(--green) !important;
+}
+
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    letter-spacing: 0.05rem;
+}
+
+h1, h2 {
+    border-left: 5px solid rgba(255, 255, 255, 0.9);
+    position: relative;
+    left: -10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
